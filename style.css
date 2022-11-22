@@ -1,26 +1,38 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
+/* First Section */
+
 img {
-    height: 5rem;
+    height: 6rem;
 }
 
 header {
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.2rem;
-    margin-bottom: 0%;
-    border-bottom: 0;
-    gap: 500%;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
+header button {
+    padding: 7px 17px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+
 .first-section-text {
-    background-image: url(./images/background1.jpg), linear-gradient( to bottom, rgba(32, 28, 28), rgba(233, 218, 218), rgba(31, 26, 26));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.013), rgb(0, 0, 0, 0.806)), url(./images/background1.jpg);
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -30,29 +42,161 @@ header {
     justify-content: center;
     text-align: center;
     color: white;
+    font-family: Helvetica;
 }
 
 .first-section-text h1 {
-    font-size: 55px;
-    width: 80vh;
+    font-size: 50px;
+    width: 550px;
+    margin: 0 auto;
+    max-width: 600px;
+    
 }
 
-.first-section-text p {
-    font-size: 30px;
-    width: 80vh;
-    padding: 0.5rem;
+.first-section-text h3 h4 {
+    font-size: 23px;
+}
+
+form {
+    box-sizing: border-box;
+    display: block;
+    appearance: none;
 }
 
 form button {
-    width: 40vh;
+    width: 35vh;
     background: red;
     height: 9vh;
     color: white;
     font-size: 25px;
-
 }
 
 form input {
-    width: 85vh;
+    width: 75vh;
     height: 9vh;
+}
+
+.first-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+}
+
+/* Second Section */
+
+.second-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 70vh;
+    border-top: 0.5rem solid rgb(49, 49, 49);
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.second-section-text {
+    padding-right: 200px;
+    padding-left: 80px;
+    line-height: 2px; 
+}
+
+.second-section-text h1 {
+    font: 45px Helvetica;
+    font-weight: bold;
+    
+}
+
+.second-section-text h3 {
+    font: 27px Helvetica;
+}
+
+.second-section img {
+    height: 60%;
+    width: 60%;
+}
+
+/* Third Section */
+
+.third-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 70vh;
+    border-top: 0.5rem solid rgb(49, 49, 49);
+    display: flex;
+    padding: 0 100px;
+    align-items: center;   
+}
+
+.third-section img {
+    height: 75%;
+    width: 35%;
+}
+
+.third-section-text {
+    padding-left: 200px;
+    line-height: 1px; 
+}
+
+.third-section-text h1 {
+    font: 47px Helvetica;
+    font-weight: bold;
+    
+}
+
+.third-section-text h3 {
+    font: 29px Helvetica;
+}
+
+/* fourth section */
+
+.fourth-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 40vh;
+    border-top: 0.5rem solid rgb(49, 49, 49);
+    padding: 0 100px;
+    align-items: left;  
+}
+
+.fourth-section-text {
+    width: 50%; 
+}
+
+.fourth-section-text h1 {
+    font: 47px Helvetica;
+    font-weight: bold;   
+}
+
+.fourth-section-text h3 {
+    font: 29px Helvetica;
+}
+
+/* Fifth Section */
+
+.fifth-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 70vh;
+    border-top: 0.5rem solid rgb(49, 49, 49);
+    display: flex;
+    padding: 0 100px;
+    align-items: center;   
+}
+
+.fifth-section img {
+    height: 85%;
+    width: 45%;
+}
+
+.fifth-section-text {
+    padding-left: 120px;
+    line-height: 1px; 
+}
+
+.fifth-section-text h1 {
+    font: 47px Helvetica;
+    font-weight: bold;
+    
+}
+
+.fifth-section-text h3 {
+    font: 29px Helvetica;
 }
