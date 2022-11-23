@@ -17,17 +17,17 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 header button {
-    padding: 7px 17px;
+    padding: 7px 25px;
     background: red;
     color: white;
     border-radius: 5px;
     border: none;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -36,7 +36,7 @@ header button {
     background-position: center;
     background-size: cover;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@ header button {
     width: 550px;
     margin: 0 auto;
     max-width: 600px;
-    
+
 }
 
 .first-section-text h3 h4 {
@@ -59,21 +59,26 @@ header button {
 
 form {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     appearance: none;
+    font-size: 25px;
 }
 
 form button {
     width: 35vh;
     background: red;
-    height: 9vh;
+    height: 10vh;
     color: white;
     font-size: 25px;
+    border: none;
 }
+
 
 form input {
     width: 75vh;
-    height: 9vh;
+    height: 9.5vh;
+    border: none;
+    font: 16px Helvetica;
 }
 
 .first-section {
@@ -95,13 +100,13 @@ form input {
 .second-section-text {
     padding-right: 200px;
     padding-left: 80px;
-    line-height: 2px; 
+    line-height: 2px;
 }
 
 .second-section-text h1 {
     font: 45px Helvetica;
     font-weight: bold;
-    
+
 }
 
 .second-section-text h3 {
@@ -122,7 +127,7 @@ form input {
     border-top: 0.5rem solid rgb(49, 49, 49);
     display: flex;
     padding: 0 100px;
-    align-items: center;   
+    align-items: center;
 }
 
 .third-section img {
@@ -132,13 +137,13 @@ form input {
 
 .third-section-text {
     padding-left: 200px;
-    line-height: 1px; 
+    line-height: 1px;
 }
 
 .third-section-text h1 {
     font: 47px Helvetica;
     font-weight: bold;
-    
+
 }
 
 .third-section-text h3 {
@@ -153,16 +158,16 @@ form input {
     height: 40vh;
     border-top: 0.5rem solid rgb(49, 49, 49);
     padding: 0 100px;
-    align-items: left;  
+    align-items: left;
 }
 
 .fourth-section-text {
-    width: 50%; 
+    width: 50%;
 }
 
 .fourth-section-text h1 {
     font: 47px Helvetica;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 .fourth-section-text h3 {
@@ -178,7 +183,7 @@ form input {
     border-top: 0.5rem solid rgb(49, 49, 49);
     display: flex;
     padding: 0 100px;
-    align-items: center;   
+    align-items: center;
 }
 
 .fifth-section img {
@@ -188,15 +193,88 @@ form input {
 
 .fifth-section-text {
     padding-left: 120px;
-    line-height: 1px; 
+    line-height: 1px;
 }
 
 .fifth-section-text h1 {
     font: 47px Helvetica;
     font-weight: bold;
-    
+
 }
 
 .fifth-section-text h3 {
     font: 29px Helvetica;
+}
+
+/* Sixth Section */
+
+.sixth-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 150vh;
+    border-top: 0.5rem solid rgb(49, 49, 49);
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+.sixth-section-btn button {
+    background-color: rgb(61, 60, 60);
+    padding: 16px;
+    font-size: 27px;
+    cursor: pointer;
+    color: white;
+    width: 60%;
+    height: 5rem;
+    font-family: Helvetica;
+    text-align: left;
+}
+
+.sixth-section h1 {
+    font-size: 50px;
+}
+
+.sixth-section h4 {
+    padding-top: 80px;
+}
+
+.sixth-section form {
+    padding-left: 300px;
+}
+
+/* Seventh section */
+
+.seventh-section {
+    border-bottom: 0.2rem solid rgb(49, 49, 49);
+    background: black;
+    height: 30vh;
+    border-top: 0.25rem solid rgb(49, 49, 49);
+    text-align: justify;
+    color: white;
+    font-family: Helvetica;
+    padding: 100px;
+}
+
+.seventh-section ul {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+
+}
+
+.seventh-section a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: small;
+    text-decoration: none;
+    color: gray;
+}
+
+.seventh-section p {
+    font-size: small;
+    text-decoration: none;
+    color: gray;
+    padding-left: 45px;
+    padding-top: 20px;
 }
